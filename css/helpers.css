@@ -1,6 +1,78 @@
 
-
-#sobremi{
-    height: 58rem;
-    background-color: dimgrey;
+html{
+    background-color: #0e0a0a !important;
 }
+#fondo{
+    height: 66rem;
+    background-color: rgb(31, 29, 29);
+    background-image: url("/img/fondo2.jpg") ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    -webkit-filter: invert(10%);
+    filter: grayscale(70%);
+    opacity: 0.9;
+}
+
+#titulo{
+    color: rgb(191, 191, 199);
+    font-size: 3rem;
+    padding-left: 2rem;
+}
+
+#subtitulo{
+    color: rgb(83, 83, 85);
+    font-size: 1.8rem;
+    padding-left: 2.2rem;
+}
+#contenido{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 7rem;
+}
+#sobremi{
+    width: 75%;
+    flex-direction: column;
+    
+}
+.descripcion{
+    text-align: justify;
+    font-size: 1.1rem;
+    padding-top:1rem;
+    margin: 1.5rem;
+}
+#botonera{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 16rem;
+}
+
+#footer{
+    background-color: #1B1B1B;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: smaller;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #353434;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(78, 78, 78);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(19, 19, 19);
+  }
