@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Roboto+Mono:wght@200&display=swap');
 html{
     background-color: #0e0a0a !important;
 }
@@ -217,5 +216,17 @@ margin-top: 8rem;
     background: transparent;
      
    
+}
+.titulo{
+    font-family: 'Inter', sans-serif; 
+    letter-spacing: 0.2rem !important; 
+    font-size: 1.2rem !important; 
+    color: #a09e9e;
+    font-style: normal !important;
+
+}
+.texto{
+    font-family: 'Roboto Mono', monospace;
+    color: aliceblue;
 }
   
