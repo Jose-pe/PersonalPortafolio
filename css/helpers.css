@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
 html{
     background-color: #0e0a0a !important;
@@ -26,12 +27,20 @@ margin-top: 8rem;
     color: rgb(191, 191, 199);
     font-size: 3rem;
     padding-left: 2rem;
+    animation-name: transparentar;
+    animation-delay: 2s ;
+    animation-duration: 2s;  
+    animation-fill-mode: forwards;
 }
 
 #subtitulo{
-    color: rgb(83, 83, 85);
+    color: rgb(73, 73, 75);
     font-size: 1.8rem;
     padding-left: 2.2rem;
+    animation-name: transparentar;
+    animation-delay: 3s ;
+    animation-duration: 2s;  
+    animation-fill-mode: forwards;
 }
 #contenido{
    
@@ -53,20 +62,45 @@ margin-top: 8rem;
     flex-direction: column; 
     width: 80rem;
     text-align: justify;    
-    color: rgb(163, 166, 168);
+   
     font-size: large;
     margin: 0.5rem;
     margin-top: 9rem;
+    animation-name: transparentar;
+    animation-duration: 4s;  
+    animation-fill-mode: forwards;
 }
 #linkedin{
     display: flex;
     justify-content: center;
-    flex-direction: row;         
+    flex-direction: row;   
+    
+ 
 }
 
 #cardlinkedin{
     width: 35%;
+    background-color: #1b1a1a;
+    border: 0px solid transparent;
+    transition-property: border;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;    
     flex-direction: column;
+    animation-name: bajar;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+#cardlinkedin:hover{
+   
+    border: 1px solid rgb(17, 17, 17);
+    transition-property: border;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;   
+    
+
+    
+    
 }
 
 #proyectos{
@@ -75,15 +109,22 @@ margin-top: 8rem;
     flex-direction: row;
     justify-content: center;
 
+
 }
 .cardproyecto{
     width: 20rem;
     flex-direction: column;
     margin-left: 3.9rem;
     margin: right 3.9rem;
-    margin-bottom:0.2 ;    
-}
+    margin-bottom:0.2 ; 
 
+   
+}
+.card{
+    animation-name: aparecer;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
 
 #botonera{
     display: flex;
@@ -98,18 +139,27 @@ margin-top: 8rem;
    background-color: transparent;
    color: rgb(90, 90, 90);
    border-color: #858383;
+   transition-property: color;
+   transition-duration: 0.2s;
+   transition-timing-function: ease-in;   
 }
 .btnprincipal:hover{
     color: #cccaca;
     border-radius: 0.5rem;
     border-color: #a09e9e;
+    transition-property: color;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;   
 }
 .btnprincipal:active{
     font-size: 1.4rem;
+    transition-property: font;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;   
 
 }
 .btnprincipal:focus{
-    box-shadow: 3px #d3d2d2;
+    box-shadow: 3px #d3d2d2 !important;
        
 }
 
@@ -143,3 +193,29 @@ margin-top: 8rem;
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(19, 19, 19);
   }
+
+
+  @keyframes bajar {
+    from {top: -14rem;}
+    to {top: -4rem; background-color: transparent;}
+  }
+
+  @keyframes transparentar {
+    from {color: transparent;}
+    to {color: rgb(184, 184, 184);}
+  }
+
+  @keyframes aparecer {
+    from {left: -14rem; background-color:transparent}
+    to {left: 0rem; background-color: rgb(29, 29, 31);}
+  }
+
+  .insetshadow {
+    
+    font-family: 'Inter', sans-serif; 
+    letter-spacing: 0.4rem;  
+    background: transparent;
+     
+   
+}
+  
