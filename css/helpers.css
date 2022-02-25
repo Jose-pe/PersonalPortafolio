@@ -2,6 +2,11 @@
 html{
     background-color: #0e0a0a !important;
 }
+a, a:active, a:hover{
+    text-decoration: none !important;
+    color: aliceblue;
+    
+}
 
 #descripcion, #cardlinkedin, .cardproyecto{
     display: none;
@@ -65,15 +70,19 @@ margin-top: 8rem;
     font-size: large;
     margin: 0.5rem;
     margin-top: 9rem;
+  
+}
+#descripcion > .texto{
     animation-name: transparentar;
     animation-duration: 4s;  
     animation-fill-mode: forwards;
+    
 }
 #linkedin{
     display: flex;
     justify-content: center;
     flex-direction: row;   
-    
+
  
 }
 
@@ -95,12 +104,8 @@ margin-top: 8rem;
     border: 1px solid rgb(17, 17, 17);
     transition-property: border;
     transition-duration: 0.5s;
-    transition-timing-function: linear;   
-    
-
-    
-    
-}
+    transition-timing-function: linear;     
+    }
 
 #proyectos{
     width: 100%;
@@ -228,5 +233,7 @@ margin-top: 8rem;
 .texto{
     font-family: 'Roboto Mono', monospace;
     color: aliceblue;
+    text-decoration: none;
+    
 }
   
