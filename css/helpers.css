@@ -9,9 +9,11 @@ a, a:active, a:hover{
 }
 
 #cardlinkedin, .cardproyecto{
-    display: none;
-    
+    display: none;    
    
+}
+#sobremi{
+    display: flex;
 }
 #cardlinkedin{
 margin-top: 8rem;
