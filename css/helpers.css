@@ -15,12 +15,13 @@ a, a:active, a:hover{
 }
 #cardlinkedin{
 margin-top: 8rem;
+width: 80%;
 }
 #fondo{
-    height: 66rem;
+    height: 100%;
     background-color: rgb(31, 29, 29);
     background-image: url("/img/fondo2.jpg") ;
-    background-size: 100%;
+    background-size: 150%;
     background-repeat: no-repeat;
     -webkit-filter: invert(10%);
     filter: grayscale(57%);
@@ -69,7 +70,7 @@ margin-top: 8rem;
    
     font-size: large;
     margin: 0.5rem;
-    margin-top: 9rem;
+    margin-top: 10rem;
   
 }
 #descripcion > .texto{
@@ -106,13 +107,14 @@ margin-top: 8rem;
     transition-duration: 0.5s;
     transition-timing-function: linear;     
     }
-
+.texto{
+    text-align: justify;
+}
 #proyectos{
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 
 }
 .cardproyecto{
@@ -120,8 +122,7 @@ margin-top: 8rem;
     flex-direction: column;
     margin-left: 3.9rem;
     margin: right 3.9rem;
-    margin-bottom:0.2 ; 
-
+    
    
 }
 .card{
@@ -134,9 +135,9 @@ margin-top: 8rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 35rem;
-    width: 120rem;  
-    position: absolute;
+    margin-top: 3rem;
+    /*width: 120rem;  */
+    /*position: absolute;*/
 }
 .btnprincipal{
    
@@ -214,7 +215,7 @@ margin-top: 8rem;
     to {left: 0rem; background-color: rgb(29, 29, 31);}
   }
 
-  .insetshadow {
+.insetshadow {
     
     font-family: 'Inter', sans-serif; 
     letter-spacing: 0.4rem;  
@@ -237,3 +238,121 @@ margin-top: 8rem;
     
 }
   
+@media (max-width: 1440px) {
+    #fondo{
+        height: 100%;
+    }
+    .cardproyecto{
+        width: 16rem;
+        margin: 1rem;
+    }  
+    #cardlinkedin{
+        width: 55%;
+    }
+
+}
+@media (max-width: 1050px) {
+    #fondo{
+        height: 100%;
+        background-repeat: repeat;
+    }
+    #sobremi{
+        padding: 2rem;
+    }
+    #cardlinkedin{
+        width: 60%;
+    }
+}
+
+@media (max-width: 850px) {
+    #proyectos{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .cardproyecto{
+        width: 30rem;
+    }
+    #botones{
+        display: flex;
+        flex-direction: row;
+    }  
+    #descripcion {
+
+        margin-top: 0rem;
+
+    }
+    #botonesmovil{
+        display: flex;
+        flex-direction: row;
+       
+    }
+    #contenido{
+        margin-bottom: 1rem;
+    }
+    #cardlinkedin{
+        margin-top: 3rem !important;
+        width: 80%;
+    }
+
+}
+@media (max-width: 700px) {
+    
+    #botones{
+        display: none;
+    }
+    .cardproyecto{
+        width: 20rem;
+    }
+    .section{
+        padding-top: 1rem;
+        padding-left: 0.5rem;
+    }
+    #cardlinkedin{
+        margin-top: 3rem !important;
+        width: 80%;
+    }
+  
+  
+}
+@media (max-width: 495px) {
+    
+    #botones{
+        display: none;
+    }
+    .cardproyecto{
+        width: 19rem;
+    }
+    .section{
+        padding-top: 1rem;
+        padding-left: 0.5rem;
+    }
+    #titulo{
+        font-size: 1.3rem !important; 
+        color: #a09e9e;
+        font-style: normal !important;
+        padding-left:0 ;
+    
+    }
+    #subtitulo{
+        font-size: 0.8rem !important; 
+        padding-left:0.5rem ;
+    }
+    #sobremi{
+        padding: 0;
+    }
+    .texto{
+        font-size: 0.8rem;
+    } 
+    .titulo{
+        font-size: 1rem !important;
+    }
+    #cardlinkedin{
+        margin-top: 3rem !important;
+        width: 95%;
+    }
+  
+  
+}
