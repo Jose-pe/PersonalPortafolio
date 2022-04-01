@@ -124,7 +124,7 @@ a, a:active, a:hover{
     justify-content: center;
 }
 #masproyectos{
-    display: flex;
+    display: none;
     flex-direction: row;
     justify-content: center;      
 }
@@ -134,6 +134,7 @@ a, a:active, a:hover{
     animation-fill-mode: forwards;
     margin-top: 2rem;
     margin-left: 1.6rem !important;
+    
 }
 .cardproyecto{
     width: 20rem;
