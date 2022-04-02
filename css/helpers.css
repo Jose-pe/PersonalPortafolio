@@ -218,6 +218,10 @@ a, a:active, a:hover{
     
 }
 .fotoproyecto:hover{   
+    
+    animation-name: ensombrecer;
+    animation-duration: 2s;
+    animation-delay: 20ms;
    
 
 }
@@ -246,7 +250,10 @@ a, a:active, a:hover{
     background: rgb(19, 19, 19);
   }
 
-
+  @keyframes ensombrecer{
+      from{filter: contrast(80%);}
+      to{filter: contrast(100%);}
+  }
   @keyframes bajar {
     from {top: -14rem;}
     to {top: -4rem; background-color: transparent;}
