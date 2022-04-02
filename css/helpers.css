@@ -142,12 +142,14 @@ a, a:active, a:hover{
     margin-left: 3.9rem;
     margin: right 3.9rem;
     
+    
    
 }
 .card{
     animation-name: aparecer;
     animation-duration: 3s;  
     animation-fill-mode: forwards;
+    border: 1px solid rgb(92, 90, 90);
 }
 
 #botonera{
@@ -205,8 +207,24 @@ a, a:active, a:hover{
     
 }
 
+/*css para proyecto.html */
+#sectionfotos{
+    margin: 2rem;
+    
+}
+.fotoproyecto{
+    border: 1px  solid rgb(255, 255, 255);
+    margin: 1rem;
+    
+}
+.fotoproyecto:hover{   
+   
+
+}
 
 
+
+/*-----------------------------------------------*/
 
 /* width */
 ::-webkit-scrollbar {
