@@ -93,7 +93,7 @@ a, a:active, a:hover{
 #cardlinkedin{
     width: 35%;
     background-color: #1b1a1a;
-    border: 0px solid transparent;
+    border: 1px solid;
     transition-property: border;
     transition-duration: 0.5s;
     transition-timing-function: linear;    
@@ -105,7 +105,7 @@ a, a:active, a:hover{
 }
 #cardlinkedin:hover{
    
-    border: 1px solid rgb(17, 17, 17);
+    border: 1px solid transparent;
     transition-property: border;
     transition-duration: 0.5s;
     transition-timing-function: linear;     
@@ -140,8 +140,7 @@ a, a:active, a:hover{
     width: 20rem;
     flex-direction: column;
     margin-left: 3.9rem;
-    margin: right 3.9rem;
-    
+    margin: right 3.9rem;    
     
    
 }
@@ -160,6 +159,38 @@ a, a:active, a:hover{
     margin-bottom: 4rem;
    
 }
+#proyectos2{
+    display: none;
+    flex-direction: column;
+    justify-content: center;  
+
+}
+#rowproyectos2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cardproyecto2{
+    width: 20rem;
+    flex-direction: column;
+    margin-left: 3.9rem;
+    margin: right 3.9rem;    
+      
+}
+#masproyectos2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;      
+}
+#masproyectos2 > button{
+    animation-name: aparecer, transparentar;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+    margin-top: 2rem;
+    margin-left: 1.6rem !important;
+    
+}
+
 .btnprincipal{
    
    background-color: transparent;
@@ -298,6 +329,10 @@ a, a:active, a:hover{
         width: 16rem;
         margin: 1rem;
     }  
+    .cardproyecto2{
+        width: 16rem;
+        margin: 1rem;
+    }  
     #cardlinkedin{
         width: 55%;
     }
@@ -329,12 +364,26 @@ a, a:active, a:hover{
         align-items: center;
         
     }
+    #proyectos2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
     
     #rowproyectos{
         display: flex;
         flex-direction: column;
     }
+    #rowproyectos2{
+        display: flex;
+        flex-direction: column;
+    }
     .cardproyecto{
+        width: 30rem;
+    }
+    .cardproyecto2{
         width: 30rem;
     }
     #botones{
@@ -363,6 +412,9 @@ a, a:active, a:hover{
     .cardproyecto{
         width: 20rem;
     }
+    .cardproyecto2{
+        width: 20rem;
+    }
     .section{
         padding-top: 1rem;
         padding-left: 0.5rem;
@@ -387,6 +439,9 @@ a, a:active, a:hover{
         display: none;
     }
     .cardproyecto{
+        width: 19rem;
+    }
+    .cardproyecto2{
         width: 19rem;
     }
     .section{
