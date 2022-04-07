@@ -1,5 +1,5 @@
 //botones inferiores
-console.log("estamosaqui");
+//console.log("estamosaqui");
 let btnyo =document.getElementById("btnyo");   
 let btnlinkedin = document.getElementById("btnlinkedin");
 let btnproyectos = document.getElementById("btnproyectos");

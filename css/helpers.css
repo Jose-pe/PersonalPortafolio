@@ -93,7 +93,8 @@ a, a:active, a:hover{
 #cardlinkedin{
     width: 35%;
     background-color: #1b1a1a;
-    border: 1px solid;
+    border: 1px solid transparent;
+
     transition-property: border;
     transition-duration: 0.5s;
     transition-timing-function: linear;    
@@ -105,7 +106,8 @@ a, a:active, a:hover{
 }
 #cardlinkedin:hover{
    
-    border: 1px solid transparent;
+    border: 1px solid white;
+
     transition-property: border;
     transition-duration: 0.5s;
     transition-timing-function: linear;     
@@ -441,7 +443,9 @@ a, a:active, a:hover{
     .cardproyecto{
         width: 19rem;
     }
+    
     .cardproyecto2{
+        display: none;
         width: 19rem;
     }
     .section{
