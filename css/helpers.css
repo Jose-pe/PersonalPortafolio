@@ -269,6 +269,12 @@ a, a:active, a:hover{
    transition-duration: 0.2s;
    transition-timing-function: ease-in;   
 }
+.link{
+    color: rgb(169, 131, 231);
+}
+.link:hover{
+    color: cornflowerblue;
+}
 
 
 
