@@ -47,6 +47,9 @@ function mostrarproyectos(){
     cardproyecto[2].style.display="flex";
     masproyectos.style.display="flex";
     proyectos2.style.display="none";
+    cardproyecto2[0].style.display="none";
+    cardproyecto2[1].style.display="none";
+    cardproyecto2[2].style.display="none";
 }
 
 function mostrarproyectossecundarios(){
