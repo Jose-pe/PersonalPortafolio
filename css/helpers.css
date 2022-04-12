@@ -513,6 +513,10 @@ a, a:active, a:hover{
     .botonproyecto{
         font-size: 0.8rem !important;
     }
+    .textoproyecto{
+        font-size: 0.8rem;
+        
+    }
   
   
 }
