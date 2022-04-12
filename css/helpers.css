@@ -115,6 +115,14 @@ a, a:active, a:hover{
 .texto{
     text-align: justify;
 }
+
+.textoproyecto{
+    color: aliceblue;
+    font-size: 1.1rem;
+    text-align: justify !important;
+    font-family: 'Roboto Mono', monospace !important;
+    padding: 0rem!important;
+}
 #proyectos{
     width: 100%;
     display: flex;
@@ -501,6 +509,9 @@ a, a:active, a:hover{
     #cardlinkedin{
         margin-top: 5rem !important;
         width: 95%;
+    }
+    .botonproyecto{
+        font-size: 0.8rem !important;
     }
   
   
