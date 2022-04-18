@@ -49,6 +49,24 @@ a, a:active, a:hover{
     animation-duration: 2s;  
     animation-fill-mode: forwards;
 }
+
+.fila{
+    display: flex;
+    flex-direction: row;
+    
+}
+.columna{
+    display: flex;
+    display: column;
+    margin: 1rem;
+    justify-items: baseline;
+    
+}
+
+#botoncv{
+   margin-top: 0.5rem;
+}
+
 #contenido{
    
     
