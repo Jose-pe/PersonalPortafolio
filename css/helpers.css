@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Roboto+Mono:wght@200&display=swap');
 html{
-    background-color: #0e0a0a !important;
+    background-color: #0e0a0a  !important;
 }
 a, a:active, a:hover{
     text-decoration: none !important;
@@ -24,7 +24,7 @@ a, a:active, a:hover{
     background-color: rgb(31, 29, 29);
     background-image: url("/img/fondo2.jpg") ;
     background-size: 100%;
-    background-repeat: repeat;
+    background-repeat: repeat !important;
     -webkit-filter: invert(10%);
     filter: grayscale(57%);
     opacity: 0.9;
@@ -53,11 +53,12 @@ a, a:active, a:hover{
 .fila{
     display: flex;
     flex-direction: row;
+    width: 100% ;
     
 }
 .columna{
     display: flex;
-    display: column;
+    flex-direction: column;
     margin: 1rem;
     justify-items: baseline;
     
@@ -73,6 +74,7 @@ a, a:active, a:hover{
     display: flex;  
     flex-flow: column; 
     min-height: 100%;
+    
     
     
 }
@@ -185,11 +187,16 @@ a, a:active, a:hover{
 
 #botonera{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 3rem;
-    margin-bottom: 4rem;
+    width: 70%;
+    flex-direction: row;   
+    justify-content: end;
    
+}
+#botones{
+    display: flex;
+    flex-direction: row;
+    justify-items: end;
+    
 }
 #proyectos2{
     display: none;
@@ -228,6 +235,7 @@ a, a:active, a:hover{
    background-color: transparent;
    color: rgb(90, 90, 90);
    border-color: #858383;
+   margin-left: 0.5rem;
    transition-property: color;
    transition-duration: 0.2s;
    transition-timing-function: ease-in;   
@@ -266,7 +274,7 @@ a, a:active, a:hover{
     flex-direction: row;
     justify-content: center;
     font-size: smaller;
-    margin-top: 8rem;
+    margin-top: 18rem;
     
 }
 
@@ -389,7 +397,19 @@ a, a:active, a:hover{
     
 
 }
+
+
 @media (max-width: 1050px) {
+    #proyectos{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    #botones{
+        display: none !important;
+    }
     #fondo{
         height: 100%;
         background-repeat: repeat;
@@ -404,16 +424,7 @@ a, a:active, a:hover{
         margin-top: 1rem;
         
     }
-}
-
-@media (max-width: 850px) {
-    #proyectos{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
-    }
+   
     #proyectos2{
         width: 100%;
         display: none;
@@ -446,18 +457,15 @@ a, a:active, a:hover{
 
     }   
     #contenido{
-        margin-bottom: 1rem;
+        margin-bottom: 5rem;
     }
     #cardlinkedin{
         margin-top: 3rem !important;
         width: 80%;
     }
 
-}
-@media (max-width: 700px) {
-    
-    #botones{
-        display: none;
+    #botonera{
+        width: 0;
     }
     .cardproyecto{
         width: 20rem;
@@ -476,7 +484,8 @@ a, a:active, a:hover{
     #botonesmovil{
         display: flex;
         flex-direction: row;
-        justify-content: center;       
+        justify-content: center;   
+         
     }
     .btnprincipal{
         margin: 0.3rem;
