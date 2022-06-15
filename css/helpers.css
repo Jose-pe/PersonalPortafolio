@@ -198,6 +198,14 @@ a, a:active, a:hover{
     justify-items: end;
     
 }
+#btnmasproyectos2, #btnmasproyectos{
+    border: 1px solid rgb(92, 80, 161);
+    border-radius: 6px;
+}
+#btnmasproyectos2:hover, #btnmasproyectos:hover{
+    border: 1px solid rgb(131, 125, 165);
+    border-radius: 6px;
+}
 #proyectos2{
     display: none;
     flex-direction: column;
@@ -234,18 +242,22 @@ a, a:active, a:hover{
    
    background-color: transparent;
    color: rgb(90, 90, 90);
-   border-color: #858383;
+   border-color: #928a8a;
+   border-right: none;
+   border-top: none;
+   border-left: none;
+   border-radius: 0;
    margin-left: 0.5rem;
    transition-property: color;
-   transition-duration: 0.2s;
+   transition-duration: 1s;
    transition-timing-function: ease-in;   
 }
 .btnprincipal:hover{
     color: #cccaca;
-    border-radius: 0.5rem;
-    border-color: #a09e9e;
+    border-radius: 2px;
+    border-color: rgb(92, 80, 161);
     transition-property: color;
-    transition-duration: 0.3s;
+    transition-duration: 1s;
     transition-timing-function: linear;   
 }
 .btnprincipal:active{
@@ -508,6 +520,37 @@ a, a:active, a:hover{
         width: 100%;
         font-size: 0.9rem !important;
     }
+    .btnprincipal{
+   
+        background-color: transparent;
+        color: rgb(90, 90, 90);
+        border-color: #858383 !important;
+        border: 1px solid ;
+        border-radius: 5px;
+        margin-left: 0.5rem;
+        transition-property: color;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-in;   
+     }
+     .btnprincipal:hover{
+         color: #cccaca;
+         border-radius: 0.5rem;
+         border-color: #a09e9e;
+         transition-property: color;
+         transition-duration: 0.3s;
+         transition-timing-function: linear;   
+     }
+     .btnprincipal:active{
+         font-size: 1.4rem;
+         transition-property: font;
+         transition-duration: 0.2s;
+         transition-timing-function: linear;   
+     
+     }
+     .btnprincipal:focus{
+         box-shadow: 3px #d3d2d2 !important;
+            
+     }
   
 }
 @media (max-width: 495px) {
