@@ -23,6 +23,7 @@ a, a:active, a:hover{
     height: 100%;
     background-color: rgb(31, 29, 29);
     background-image: url("/img/fondo2.jpg") ;
+    background-attachment: fixed;
     background-size: 100%;
     background-repeat: repeat !important;
     -webkit-filter: invert(10%);
