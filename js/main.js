@@ -1,5 +1,4 @@
 //botones inferiores
-//console.log("estamosaqui");
 let btnyo =document.getElementById("btnyo");   
 let btnlinkedin = document.getElementById("btnlinkedin");
 let btnproyectos = document.getElementById("btnproyectos");
@@ -17,6 +16,9 @@ function mostrarsobremi(){
    cardproyecto[0].style.display="none";
    cardproyecto[1].style.display="none";
    cardproyecto[2].style.display="none";
+   cardproyecto[3].style.display="none";
+   cardproyecto[4].style.display="none";
+   cardproyecto[5].style.display="none";
    masproyectos.style.display="none";
    proyectos2.style.display="none";
 }
@@ -30,6 +32,9 @@ function mostrarlinkedin(){
     cardproyecto[0].style.display="none";
     cardproyecto[1].style.display="none";
     cardproyecto[2].style.display="none";
+    cardproyecto[3].style.display="none";
+    cardproyecto[4].style.display="none";
+    cardproyecto[5].style.display="none";
     masproyectos.style.display="none";
     proyectos2.style.display="none";
 }
@@ -45,6 +50,9 @@ function mostrarproyectos(){
     cardproyecto[0].style.display="flex";
     cardproyecto[1].style.display="flex";
     cardproyecto[2].style.display="flex";
+    cardproyecto[3].style.display="flex";
+    cardproyecto[4].style.display="flex";
+    cardproyecto[5].style.display="flex";
     masproyectos.style.display="flex";
     proyectos2.style.display="none";
     cardproyecto2[0].style.display="none";
@@ -63,7 +71,10 @@ function mostrarproyectossecundarios(){
     linkedin.style.display="none";
     cardproyecto[0].style.display="none";
     cardproyecto[1].style.display="none";
-    cardproyecto[2].style.display="none";
+    cardproyecto[2].style.display="none";    
+    cardproyecto[3].style.display="none";
+    cardproyecto[4].style.display="none";
+    cardproyecto[5].style.display="none";
     masproyectos.style.display="none";
     proyectos2.style.display="flex";
 
