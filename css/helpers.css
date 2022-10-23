@@ -15,6 +15,11 @@ a, a:active, a:hover{
 #sobremi{
     display: flex;
 }
+.quote{
+
+    font-weight: bolder;
+     
+}
 #cardlinkedin{
     margin-top: 8rem;
     width: 80%;
